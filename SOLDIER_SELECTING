@@ -1,0 +1,27 @@
+cinsiyet = input("Lütfen cinsiyetinizi giriniz (Erkek/Kadın): ") 
+if cinsiyet == 'Erkek' or 'erkek':
+    yaş = int(input("Lütfen yaşınızı giriniz: "))
+    boy = float(input("Lütfen boyunuzu metre cinsinden giriniz (örneğin 1.75): "))
+    kilo = float(input("Lütfen kilonuzu kilogram cinsinden giriniz (örneğin 70): "))
+    vucutkitleIX = kilo / (boy ** 2)
+    if vucutkitleIX < 18.5:
+        durum = "Zayıf"
+        print(durum) 
+    elif 18.5 <= vucutkitleIX < 24.9:  
+        durum = "Normal"
+        print(durum)
+    elif 25 <= vucutkitleIX < 29.9:  
+        durum = "Fazla kilolu"
+        print(durum)
+    sorun =str(input("Herhangi bir sağlık sorununuz var mı? (Evet/Hayır): "))
+    if yaş >= 20 and yaş <= 30 and durum == "Normal" and sorun == "Hayır" or sorun == "hayır":
+            print("Askerliğe uygunsunuz.")
+    else:
+            print("Askerliğe uygun değilsiniz.")    
+    if  sorun == "Evet":
+            print("Askerliğe uygun değilsiniz.")
+
+else :
+    print("Askerliğe uygun değilsiniz.")
+
+
