@@ -2,4 +2,6 @@
 
 # I WILL SHARE MY BASIC PROJECTS WITH YOU HERE🧑🏻‍💻🧑🏻‍💻
 
-<img src="ttps://github.com/user-attachments/assets/43eccb8d-9b38-4c31-810a-f2d1e87de30f" width="400" height="250">
+<p align="center">
+  <img src="![Image](https://github.com/user-attachments/assets/2b07221d-73c5-49bb-bbbe-7f3c43a00d89)" width="100%" height="200">
+</p>
